@@ -21,9 +21,9 @@ app.get("/", (req, res) => {
     res.render("home");
 });
 
-app.get("/", (req, res) => {
-    res.render("info1");
-});
+app.get('/info1.html', (req, res) => {
+    res.render("info1.html")
+})
 
 app.get('/info2.html', (req, res) => {
     res.render("info2.html")
